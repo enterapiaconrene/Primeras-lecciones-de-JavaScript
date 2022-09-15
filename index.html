@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8"/>
+        <title>Primeras lecciones de JavaScript</title>
+        <style>
+            body {
+                background-color: lightslategrey;
+                margin: 0;
+            }
+
+            header {
+                background-color: grey;
+                position: sticky;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 50px;
+                box-shadow: 2.5px 2.5px 2.5px #aaa;
+
+            }
+
+            h1 {
+                text-align: center;
+                color: white;
+            }
+
+            article {
+                background-color: white;
+                padding: 0;
+                margin: 1rem auto;
+                box-shadow: 2.5px 2.5px 2.5px #aaa;
+                border-radius: 10px;
+                padding: 0.25rem 0rem;
+                width: 90vmin;
+            }
+            article h2, article p {
+                padding: 0 1rem;
+                text-align: center;
+            }
+            article ul, article ol {
+                text-align: center;
+                list-style-position: inside;
+                padding-left: 0;
+            }
+
+            article div {
+                background-color: bisque;
+                padding: 1rem;
+                margin: 1rem;
+            }
+
+        </style>    
+        <script>
+            console.log("Hola, este es un mensaje creado para aprender JS");
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Primeras lecciones de JavaScript</h1>
+        </header>
+        <article>
+            <h2>Imprimir en consola</h2>
+            <div>
+                <p>Para imprimir un valor en la consola utilizamos:<br>
+                    console.log("Hola, este es un mensaje creado para aprender JS");<br><br>
+
+                    y aparece lo que hayamos puesto entre el paréntesis.<br>
+                    (Hola, estre es un mensaje creado para aprender JS)
+                </p>
+            </div>
+        </article>
+        <article> 
+            <h2>Tipos de comentarios:</h2>
+            <div><p>Los comentarios son ignorados por el navegador, son mensajes que nos dejamos a quien tenga que leer el código.<br><br>
+                //comentario de una linea</p>
+
+            <p>/* Este es un <br>
+                comentario en <br>
+                varias lineas */</p>
+            </div>
+        </article>
+        <article>
+            <h2>Tipos de Datos:</h2>
+            <div><ul>
+            <li>undefined</li>
+            <li>null</li>
+            <li>boolean</li>
+            <li>string</li>
+            <li>symbol</li>
+            <li>number</li>
+            <li>object</li></ul>
+            </div>
+        </article>
+        <article>
+            <h2>Que es una variable: </h2>
+            <div>
+                <p>Es un espacio de almacenamiento</p>
+                <p>Declaramos la variable con valor<br>
+                    Ej. var x = 5;</p>
+                <p>Imprimir en consola el valor de la variable<br>
+                    console.log(x);<br>
+                    (5)</p>
+               
+                <p>Para declarar una variable sin darle valor<br>
+                    var a;<br>
+                    Console.log(a);<br>
+                    (undefined)</p>
+                <p>Se recomienda usar nombres de las variables decriptibas
+                    Usando la convención "camelcase":<br>
+                    <ol>
+                        <li>primera letra minuscula</li>
+                        <li>primera letra de las palablas consecuentes en mayúsculas</li>
+                    </ol>
+                    <p>Ej. miVariable, estaEsMiVariable, variableDescriptiva</p>
+            </div>
+        </article>
+        <article>
+            <h2>Operador de Asignación</h2>
+            <div>
+                <p>El signo de '=' asigna el valor a nuestra variable, tanto cuando no está definida (undefined) como cuanto ya esta definida y queremos modificarla.</p>
+                <p>Podemos darlo un valor o modificar la variable ya asignada dandole otro valor:<br>
+                    x = 15</p>
+                <p>Volvemos a Imprimir y ahora el valor se actualizó<br>
+                    console.log(x);<br>
+                    (15)</p>
+            </div>
+        </article>
+        <article>
+            <h2>Asignar el valor de una variable a otra variable</h2>
+            <div>
+                <p>Podemos asignar el valor de una variable usando otra ya previamente asignada:
+                var a = 5;<br>
+                var b = a;<br>
+                <br>
+                console.log(a);<br>
+                console.log(b);</p>
+                <p>También existe esta otra manera:<br>
+                    var a = 5;<br>
+                    var b;<br>
+                    <br>
+                    b = a;<br>
+                    <br>
+                    console.log(a);<br>
+                    console.log(b);</p>
+                </p>
+            </div>
+        </article>
+        <article>
+            <h2>Inicializar variables</h2>
+            <div>
+                <p></p>
+            </div>
+        </article>
+        <article>
+            <h2></h2>
+            <div>
+                <p></p>
+            </div>
+        </article>
+        <article>
+            <h2></h2>
+            <div>
+                <p></p>
+            </div>
+        </article>
+    
+
+    
+
+    
+
+    
+
+    
+
+    </body>
+</html>
